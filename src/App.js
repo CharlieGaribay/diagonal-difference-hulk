@@ -1,5 +1,6 @@
 import React, { Component, } from 'react'
 import './App.css';
+import Hulk from './Hulk';
 
 class App extends Component {
   constructor(props) {
@@ -185,6 +186,8 @@ class App extends Component {
         <br />
         <label>Difference: </label>
         {this.diagonalDifference()}
+        <br />
+        <Hulk />
       </div>
     )
   }
